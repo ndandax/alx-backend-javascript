@@ -9,5 +9,5 @@ app.get('/', (req, res) => {
 });
 
 module.exports = app.listen(port, hostname, () => {
-  console.log(`Example app running at http://${hostname}:${port}/`);
+  console.log(`App running at http://${hostname}:${port}/`);
 });
